@@ -163,6 +163,10 @@ ul {
   justify-content: center;
   }
 
+.project-img {
+  height: 300px;
+  justify-content: center;
+}
 
   /* Design adjustments using id (1% design remaining) */
 #introduction p {
