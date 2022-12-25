@@ -1,3 +1,3 @@
-# profile
-profile
-Portfolio to showcase former and current projects
+# portfolio
+Georgina aka GiGi Codes' Portfolio
+Page to showcase former and current projects
