@@ -32,9 +32,9 @@
   margin: 0 auto;
 }
 
-#CodeGirl {
+/* #CodeGirl {
   width: 95%;
-}
+} */
 
 body {
   text-align: center;
@@ -124,6 +124,13 @@ a {
   width: 300px;
   border-radius: 60%
 }
+
+.project-img {
+ height: 300px;
+ width: 475px;
+ justify-content: center;
+}
+
 
 #button-purple {
   text-decoration: none;
