@@ -269,8 +269,8 @@ h5 {
 }
 
 .social-links-row a:hover {
-  filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(305deg)
-    brightness(97%) contrast(103%);
+  filter: invert(20%) sepia(90%) saturate(1000%) hue-rotate(243deg)
+    brightness(120%) contrast(110%);
 }
 
 /* About section */
@@ -468,36 +468,6 @@ h5 {
   font-size: clamp(1rem, 0.964rem + 0.18vw, 1.125rem);
   color: var(--supportive-text-color);
   margin: 0 auto 20px;
-}
-
-.contact form {
-  max-width: 500px;
-  margin: 20px auto;
-  text-align: center;
-}
-
-.contact form .input-box {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.contact form .input-box input,
-.contact form textarea {
-  width: 100%;
-  padding: 15px;
-  font-size: 15px;
-  color: var(--gray-text-color);
-  border: 1px solid var(--gray-color-2);
-  margin: 7px 0;
-}
-
-.contact form .input-box input {
-  width: 100%;
-}
-
-.contact form textarea {
-  resize: none;
 }
 
 .contact-button {

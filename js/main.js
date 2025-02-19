@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   AOS.init({
     once: true,
   });
-  form();
   skillbar();
 
   const nav = document.querySelector("#nav");
