@@ -101,7 +101,7 @@ body {
   background-color: #3c4446;
 }
 
-.btn-red {
+/* .btn-red {
   background: var(--secondary-accent);
   border: 2px solid var(--secondary-accent);
   color: var(--white-color);
@@ -116,7 +116,7 @@ body {
 
 .btn-red:active {
   background-color: #3c4446;
-}
+} */
 
 h5 {
   font-size: 15px;
