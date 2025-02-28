@@ -188,7 +188,7 @@ h5 {
 }
 
 .nav-link:hover {
-  color: var(--secondary-accent);
+  color: var(--primary-accent);
 }
 
 .nav-link.active {
