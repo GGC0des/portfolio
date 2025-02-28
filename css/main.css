@@ -367,7 +367,7 @@ h5 {
   text-align: center;
 }
 
-/* Works */
+/* Projects */
 .projects {
   padding: 7rem 0;
   background-color: var(--primary-bg-color);
@@ -470,9 +470,9 @@ h5 {
   margin: 0 auto 20px;
 }
 
-.contact-button {
+/* .contact-button {
   margin-top: 20px;
-}
+} */
 
 /* Footer */
 .footer {
