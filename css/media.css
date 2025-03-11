@@ -153,6 +153,15 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .project-box {
+    max-width: 460px;
+  }
+  .project-image {
+    max-width: 460px;
+  }
+}
+
 @media (max-width: 720px) {
   .project-box {
     max-width: 100%;
