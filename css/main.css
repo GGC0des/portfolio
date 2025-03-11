@@ -101,22 +101,6 @@ body {
   background-color: #3c4446;
 }
 
-/* .btn-red {
-  background: var(--secondary-accent);
-  border: 2px solid var(--secondary-accent);
-  color: var(--white-color);
-  transition: all 0.3s ease-in;
-}
-
-.btn-red:hover,
-.btn-red:focus {
-  background: var(--primary-accent);
-  border: 2px solid var(--primary-accent);
-}
-
-.btn-red:active {
-  background-color: #3c4446;
-} */
 
 h5 {
   font-size: 15px;
@@ -334,6 +318,39 @@ h5 {
   transition: width 1.5s ease-in-out; /* Smooth transition for the fill */
 }
 
+.skill-badge-row {
+  position: relative;
+  display: block;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.skill-badge {
+  padding: 4px;
+  margin: 4px;
+  border-radius: 4px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+@keyframes fadeUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Apply animation when elements load */
+.skill-badge {
+  animation: fadeUp 1.2s ease-in-out forwards;
+}
+
 .about-download-btn {
   margin-top: 40px;
 }
@@ -343,10 +360,12 @@ h5 {
   flex-wrap: wrap;
   gap: 50px;
   justify-content: space-between;
+  padding-bottom: 40px;
 }
 
 .service-card {
   max-width: 300px;
+  padding-top: 40px;
 }
 
 .service-card-img {
@@ -372,6 +391,7 @@ h5 {
   text-align: center;
 }
 
+
 /* Projects */
 .projects {
   padding: 7rem 0;
@@ -392,7 +412,7 @@ h5 {
   position: relative;
   overflow: hidden;
   display: block;
-  max-width: 510px;
+  max-width: 560px;
 }
 
 .project-box a {
@@ -475,9 +495,9 @@ h5 {
   margin: 0 auto 20px;
 }
 
-/* .contact-button {
+.contact-button {
   margin-top: 20px;
-} */
+}
 
 /* Footer */
 .footer {
